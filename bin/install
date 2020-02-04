@@ -72,9 +72,6 @@ install_prototool() {
 	curl -sSL $download_url -o "${tempdir}/archive.tar.gz"
 	tar -C "$tempdir" -zxf "${tempdir}/archive.tar.gz"
 
-	ls ${tempdir}/prototool/bin
-	ls ${tempdir}
-
 	mv ${tempdir}/prototool/bin/prototool ${bin_install_path}
 	chmod +x ${bin_install_path}/prototool
 
