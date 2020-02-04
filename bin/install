@@ -44,7 +44,7 @@ get_download_url() {
   	local version=$1
 	local platform=$2
 	local arch=$3
-  	echo "https://github.com/uber/prototool/releases/download/v${version}/prototool-${platform}-${arch}"
+  	echo "https://github.com/uber/prototool/releases/download/v${version}/prototool-${platform}-${arch}.tar.gz"
 }
 
 my_mktemp () {
