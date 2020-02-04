@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-releases_path="https://api.github.com/repos/GoogleContainerTools/skaffold/tags"
+releases_path="https://api.github.com/repos/uber/prototool/tags"
 
 cmd="curl -s"
 
